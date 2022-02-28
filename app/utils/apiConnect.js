@@ -1,6 +1,7 @@
 import axios from "axios";
 
-export default function apiConnect(method=null, req=null, body=null){
-  const url = "https://mindicador.cl/api";
+export default function apiConnect(request=null){
+  var url = 'https://mindicador.cl/api';
+  request && (url = "https://mindicador.cl/api/"+request);
   return axios.get(url);
 };

@@ -23,7 +23,13 @@ export default function Welcome() {
         title='Iniciar'
         containerStyle={styles.btnContainerLogin}
         buttonStyle={styles.btnLogin}
-        onPress={()=>navigation.navigate('home')}
+        onPress={()=>navigation.reset(
+        { index: 0,
+          routes: 
+          [ { name: 'home'
+            }
+          ],
+        })}
       />
     </SafeAreaView>
   );
