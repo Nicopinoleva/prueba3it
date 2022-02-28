@@ -23,4 +23,4 @@ Finally, navigate to Android folder and execute the following command:
 ```
 ./gradlew assembleRelease
 ```
-The resulting .apk will be found at android\app\build\outputs\apk\release ready to be installed and tested. Please, contact me if there are any problems.
+The resulting .apk will be found at android\app\build\outputs\apk\release ready to be installed and tested. Please, contact me if there are any issues.
